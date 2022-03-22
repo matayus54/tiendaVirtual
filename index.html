@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ecommerce</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<!-- <script src="https://kit.fontawesome.com/24a2260742.js" crossorigin="anonymous"></script> -->
+
+<!-- <link rel="stylesheet" href="./assets/iconos/css/all.min.css"> -->
+
+
+
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+<!-- iconos -->
+<script 
+  src="./assets/iconos/js/all.min.js">
+</script>
+
+<!-- uso particulas -->
+    <div id="particles-js"></div>
+
+<!-- barra de navegacion -->
+    <navbar class="navbar">
+
+        <a href="assets/html/productos.html"><button class="boton">ver productos</button></a>
+
+        <!-- <button class="boton">contactanos</button> -->
+     
+  </navbar>
+<p class="presentacion">bienvenidos a su tienda de confianza</p>
+
+
+
+<!-- carrusel de imagenes -->
+    <!-- Caruousel -->
+   
+
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+           <!-- <img src="https://source.unsplash.com/random/800x601" alt="" class="image"> -->
+            <img src="./assets/img/cart-1.png" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="./assets/img/slide-1.png" alt="">
+        </div>
+        <div class="miSlider fade">
+            <img src="./assets/img/portfolio-1.jpg" alt="">
+        </div>
+
+        <div class="miSlider fade">
+            <img src="./assets/img/discount.png" alt="">
+        </div>
+
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra active" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+            <span class="barra" onclick="posicionSlide(4)"></span>
+        </div>
+    </div>
+<!-- Fin carrusel -->
+
+<!-- footer -->
+  <footer class="footer">
+    <p style="text-align:center;" > © 2022 - realizado por Arthur Mazius  <br>  All rights reserved - Copyright - <br> todos los derechos reservados 
+    </p>
+  </footer>
+  
+
+<script 
+  src="index.js">
+</script>
+
+<script 
+  src="./assets/js/particles.min.js">
+</script>
+
+<script 
+  src="./assets/js/particulas.js">
+</script>
+
+<script 
+  src="./assets/js/carrusel.js">
+</script>
+
+
+</body>
+
+</html>

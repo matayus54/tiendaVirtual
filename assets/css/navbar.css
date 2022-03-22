@@ -1,0 +1,12 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 60vw;
+  margin: 1em auto;
+  padding: 1vw;
+  /*
+  background: #101112;
+  width: 100%;*/
+}

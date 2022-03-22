@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ecommerce</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<!-- <script src="https://kit.fontawesome.com/24a2260742.js" crossorigin="anonymous"></script> -->
+
+<!-- <link rel="stylesheet" href="./assets/iconos/css/all.min.css"> -->
+
+  <link rel="stylesheet" href="../../index.css">
+
+</head>
+<body>
+
+<!-- iconos -->
+<script 
+  src="../../assets/iconos/js/all.min.js">
+</script>
+
+<!-- uso particulas -->
+    <div id="particles-js"></div>
+
+<!-- barra de navegacion -->
+    <navbar class="navbar">
+
+        <a href="../../index.html"><button class="boton">Tienda</button></a>
+
+
+        <button type="button" class="boton carro iniciarModal " 
+        title="carrito" >
+
+          
+            <i class="carrito fa-solid fa-cart-arrow-down"></i>
+       
+        </button>
+
+     
+  </navbar>
+<p class="presentacion">elija sus productos</p>
+
+<!-- 
+ -->
+
+      <div class="productos">
+        
+        <div class="agregar">
+        <p class="title">
+          <!-- Productos: -->
+          
+        </p>
+        <div class="products" id="products-container"></div>
+      </div>
+
+      </div>
+      
+      
+
+ <!-- 
+  -->
+<!-- modal -->
+ <section class="modal" >
+        <div class="modal__container " >
+            <!-- <img src="images/modal.svg" class="modal__img"> -->
+          
+
+            <!-- carrito -->
+
+      
+      <aside class="quitar">
+        <p class="modal__title">carrito de compras </p>
+        <span>items: <span id="count"></span></span>
+        
+        <div id="cart" class="modal__paragraph cart"></div>
+      </aside>
+
+      <p class=""> costo total: <span class="total"> </span> </p>
+      
+<!-- fin carrito -->
+            <a href="#" class="cerrarModal">completar compra</a>
+        </div>
+    </section>
+
+ <!--    fin modal
+ -->
+
+<!-- footer -->
+  <footer class="footer">
+    <p style="text-align:center;" > © 2022 - realizado por Arthur Mazius  <br>  All rights reserved - Copyright - <br> todos los derechos reservados 
+    </p>
+  </footer>
+  
+
+<script 
+  src="../../index.js">
+</script>
+
+<script 
+  src="../../assets/js/particles.min.js">
+</script>
+
+<script 
+  src="../../assets/js/particulas.js">
+</script>
+
+<script 
+  src="../../assets/js/productos.js">
+</script>
+
+<script 
+  src="../../assets/js/carrito.js">
+</script>
+
+
+</body>
+
+</html>
